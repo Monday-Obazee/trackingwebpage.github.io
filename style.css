@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Barlow:ital,wght@1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    font-family: 'Barlow', sans-serif;
+    
+
+    
+}
+.wrapper{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 95%;
+    height: 100vh;
+    position: relative;
+}
+    
+.left{
+    margin-left: 6rem;
+    width: 30vw;
+    
+}
+.top{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.new{
+    margin-right: 0.5rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    border-radius: 20px;
+    color: #fff;
+}
+h2{
+    font-family: 'Barlow Condensed', sans-serif;font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    border: none;
+    background: hsl(0, 100%, 68%);
+    padding: 10px;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+.text{
+    margin-top: 4rem;
+
+}
+.right{
+    width: 70vw;
+    position: absolute;
+    left: 30rem;
+    height: 100vh;
+    
+}
+
+.bar{
+    height: 50vh;
+    background: hsl(207, 33%, 95%); 
+    margin-inline-start: 1rem; 
+    margin-top: -1rem;
+    border-radius: 0px 0px 0px 30px;
+
+}
+li{
+    display: inline-block;
+    margin: 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.showcase{
+    margin-top: -13rem;
+    position: relative;
+    right: -1rem;
+    
+}
